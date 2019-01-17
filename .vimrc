@@ -6,10 +6,6 @@ set guifont=Monospace\ 14
 set backspace=2
 set clipboard=unnamedplus
 set cursorline
-set enc=utf8
-set foldenable
-set foldlevel=99
-set foldmethod=syntax
 set hls
 set nocompatible
 set number
@@ -17,7 +13,7 @@ set splitbelow
 set shiftwidth=4                " indenting space size
 set softtabstop=4
 set tabstop=4                    " tab instead of space size
-set noexpandtab                    " replace tab with space
+set expandtab                    " replace tab with space
 set ai                           " auto indenting
 set smartindent
 
@@ -29,3 +25,6 @@ set ic                           " case insensitive searching
 
 set foldmethod=marker            " code folding
 set foldmarker={{{,}}}
+set foldenable
+set foldlevel=99
+set foldmethod=syntax
